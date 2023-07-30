@@ -1,19 +1,10 @@
-syntax on
-set tabstop=4
-set shiftwidth=4
-set expandtab
-set number
-set relativenumber
-set cindent
-colorscheme pablo
 set autoindent
-set smartindent
-set smarttab
-set guifont=*
-highlight Comment ctermfg=green
-set encoding=utf-8
+syntax on
+colorscheme pablo
 filetype plugin indent on
-set backspace=indent,eol,start
-set clipboard=unnamedplus
+let mapleader = " "
+set number
+" nmap <leader>c ggVG"+y''
 hi Normal guibg=NONE ctermbg=NONE
-set mouse=a
+set clipboard=unnamedplus
+:vnoremap <leader>y "+y
